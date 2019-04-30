@@ -6,8 +6,10 @@ A simple Hibernate-based project designed for one to simply type in a question o
 ##How to use
 
 Find example queries done in the MainProcess.java and add your own! using a piece of code like
-```new RequestProcessor("Search by li")
-			.executeIntent();```
+```
+new RequestProcessor("Search by li")
+			.executeIntent();
+```
 It will create a new instance of request processor and process the command, then execute said query. 
 
 ##Available commands
@@ -18,7 +20,9 @@ It will create a new instance of request processor and process the command, then
 -Show a head of a department ``Show head of %departmentname%``
 
 You can find out department names simply by searching for "Department"
-```Search by Department```
+```
+Search by Department
+```
 ##TODO
 
 -Event loop to read commands (currently, it executes some commands formatted as string and one may add their own easily)
