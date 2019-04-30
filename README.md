@@ -39,7 +39,7 @@ Search by Department
 * Format the answers, they are simple one-word sentences yet, except for statistics.
 * Change the main logic, change the behaviour of hibernate to update instead of creating the database schemas. Like this, it works as a great demonstration.
 
-##Technologies used
+## Technologies used
 
 * Hibernate
 * Javax
