@@ -38,6 +38,7 @@ Search by Department
 * Event loop to read commands (currently, it executes some commands formatted as string and one may add their own easily)
 * Format the answers, they are simple one-word sentences yet, except for statistics.
 * Change the main logic, change the behaviour of hibernate to update instead of creating the database schemas. Like this, it works as a great demonstration.
+
 ##Technologies used
 
 * Hibernate
